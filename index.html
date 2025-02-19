@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulateur Photovoltaïque</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulateur Photovoltaïque</h1>
+        <form id="pv-form">
+            <label for="name">Prénom :</label>
+            <input type="text" id="name" required>
+
+            <label for="surname">Nom :</label>
+            <input type="text" id="surname" required>
+
+            <label for="address">Adresse :</label>
+            <input type="text" id="address" required>
+
+            <label for="postalCode">Code Postal :</label>
+            <input type="text" id="postalCode" required>
+
+            <label for="city">Ville :</label>
+            <input type="text" id="city" required>
+
+            <button type="submit">Soumettre</button>
+        </form>
+
+        <div id="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
